@@ -76,6 +76,7 @@ body {
     padding: 2rem;
     padding-left: 15%;
     padding-right: 15%;
+    margin-bottom: 4rem;
 }
 
 .container-content .content-title{
@@ -86,13 +87,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
 }
 
 .container-content .container-cards{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 75%;
-    gap: 20px;
+    gap: 75px;
     align-items: center;
 }
 
@@ -100,19 +102,102 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .cards {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    padding: 1rem;
+    width: 200px;
+    min-height: 200px;
     border: #3882f6 solid 6px;
-    border-radius: 8px;
+    border-radius: 20px;
     background-color: white;
-    width: 300px;
 }
 
+.card-sep .text{
+    max-width: 200px;
+    display: flex;
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.container-quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.quote {
+    margin-top: 5rem;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+}
+
+.reference-quote {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 4rem;
+}
+
+.container-cta{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#3882f6;
+    padding: 3.5rem;
+    padding-left: 15% ;
+    padding-right: 15%;
+    border-radius: 8px;
+}
+
+
+.call-to-action .header{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.call-to-action .text{
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.call-to-action .btn{
+    border: #e5e7eb solid 2px;
+}
+
+.footer{
+    color: #f9faf8;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
 ul {
     display: flex;
     list-style-type: none;
