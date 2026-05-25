@@ -27,7 +27,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 10%;
+    padding-bottom: 6rem;
 
 }
 
@@ -40,7 +40,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 10%;
+    padding-bottom: 6rem;
 }
 
 .hero .hero-content{
@@ -84,9 +84,6 @@ body {
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 1rem;
 }
 
@@ -164,7 +161,6 @@ body {
 
 .call-to-action{
     display: flex;
-    justify-content: center;
     justify-content: space-between;
     align-items: center;
     background-color:#3882f6;
@@ -211,7 +207,7 @@ a {
 }
 
 button{
-    min-width: none;
+
     background-color: #3882f6;
     font-size: larger;
     font-weight: bold;
